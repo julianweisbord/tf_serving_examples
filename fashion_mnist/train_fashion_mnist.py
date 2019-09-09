@@ -45,8 +45,6 @@ model.fit(train_images, train_labels, epochs=epochs)
 test_loss, test_acc = model.evaluate(test_images, test_labels)
 print('\nTest accuracy: {}'.format(test_acc))
 
-
-
 # Fetch the Keras session and save the model
 # The signature definition is defined by the input and output tensors,
 # and stored with the default serving key
